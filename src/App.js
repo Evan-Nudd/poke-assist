@@ -21,7 +21,7 @@ class App extends Component {
     var dex = [];
     for (var pokemonIndex in pokedexJSON) {
       var pokemonJSON = pokedexJSON[pokemonIndex];
-      const pokemon = new Pokemon(pokemonJSON["id"], pokemonJSON["ename"]);
+      const pokemon = new Pokemon(pokemonJSON["_id"], pokemonJSON["ename"]);
       dex.push(pokemon);
     }
     return dex;

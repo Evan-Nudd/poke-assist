@@ -1,0 +1,77 @@
+[
+    {
+        "name": "bug",
+        "weak_against": ["flying", "rock", "fire"],
+        "strong_against": ["psychic", "grass", "dark"]
+    },
+    {
+        "name": "dragon",
+        "weak_against": ["ice", "Dragon", "fairy", "fairy"],
+        "strong_against": ["Dragon"]
+    },
+    {
+        "name": "ice",
+        "weak_against": [ "fighting", "rock", "steel", "fire"],
+        "strong_against": [ "grass", "flying", "ground", "Dragon"]
+    },
+    {
+        "name": "fighting",
+        "weak_against": [ "psychic", "flying", "fairy", "ghost"],
+        "strong_against": ["steel", "rock", "ice", "dark", "Normal"]
+    },
+    {
+        "name": "fire",
+        "weak_against": ["fire", "water", "rock"],
+        "strong_against": ["grass", "ice", "bug", "steel"]
+    },
+    {
+        "name": "flying",
+        "weak_against": ["ice", "electric", "rock", "ground"],
+        "strong_against": ["fighting", "grass", "bug"]
+    },
+    {
+        "name": "grass",
+        "weak_against": [ "flying", "ice", "poison", "bug", "fire"],
+        "strong_against": ["ground", "water", "rock"]
+    },
+    {
+        "name": "ghost",
+        "weak_against": ["psychic", "dark", "ghost"],
+        "strong_against": ["psychic", "ghost"]
+    },
+    {
+        "name": "ground",
+        "weak_against": ["grass", "ice", "water"],
+        "strong_against": ["electric", "steel", "rock", "poison", "fire"]
+    },
+    {
+        "name": "electric",
+        "weak_against": ["ground"],
+        "strong_against": [ "flying", "water"]
+    },
+    {
+        "name": "normal",
+        "weak_against": ["fighting", "ground", "grass", "steel", "water"],
+        "strong_against": ["flying", "ice", "bug", "fire"]
+    },
+    {
+        "name": "poison",
+        "weak_against": ["steel", "psychic", "ground"],
+        "strong_against": ["grass", "fairy"]
+    },
+    {
+        "name": "psychic",
+        "weak_against": ["dark", "bug", "ghost"],
+        "strong_against": ["fighting", "poison"]
+    },
+    {
+        "name": "rock",
+        "weak_against": ["water", "ground", "ice", "grass", "steel", "fighting"],
+        "strong_against": ["flying", "ice", "bug", "fire"]
+    },
+    {
+        "name": "water",
+        "weak_against": ["grass", "electric"],
+        "strong_against": ["ground", "rock", "fire"]
+    }
+]
